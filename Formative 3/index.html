@@ -2,37 +2,53 @@
 <html>
 <head>
     <title>Employee Registration</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="external_registration.css">
 </head>
-<body>
+<body class="bg-light">
 
-    <h1>Employee Registration Form</h1>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4 feu-header p-3 rounded">Employee Registration Form</h1>
 
-    <form>
-        <p>First Name:</p>
-        <input type="text" name="firstname">
+        <form class="bg-white p-4 rounded shadow-sm feu-form">
+            <div class="form-group">
+                <label for="firstname">First Name:</label>
+                <input type="text" class="form-control" id="firstname" name="firstname">
+            </div>
 
-        <p>Middle Name:</p>
-        <input type="text" name="middlename">
+            <div class="form-group">
+                <label for="middlename">Middle Name:</label>
+                <input type="text" class="form-control" id="middlename" name="middlename">
+            </div>
 
-        <p>Last Name:</p>
-        <input type="text" name="lastname">
+            <div class="form-group">
+                <label for="lastname">Last Name:</label>
+                <input type="text" class="form-control" id="lastname" name="lastname">
+            </div>
 
-        <p>Email:</p>
-        <input type="email" name="email">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email">
+            </div>
 
-        <p>Phone:</p>
-        <input type="text" name="phone">
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" class="form-control" id="phone" name="phone" placeholder="e.g., 09123456789">
+            </div>
 
-        <p>Year of Birth:</p>
-        <input type="date" name="birthdate">
+            <div class="form-group">
+                <label for="birthdate">Year of Birth:</label>
+                <input type="date" class="form-control" id="birthdate" name="birthdate">
+            </div>
 
-        <p>Start Date:</p>
-        <input type="date" name="startdate">
+            <div class="form-group">
+                <label for="startdate">Start Date:</label>
+                <input type="date" class="form-control" id="startdate" name="startdate">
+            </div>
 
-        <br><br>
-        <input type="submit" value="Register">
-    </form>
+            <button type="submit" class="btn btn-feu btn-block">Register</button>
+        </form>
+    </div>
 
 </body>
 </html>

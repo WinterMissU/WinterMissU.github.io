@@ -1,35 +1,26 @@
 body {
+    background-color: #f3f3f3;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    padding: 20px;
 }
 
-h1 {
-    text-align: center;
-    color: #333;
+.feu-header {
+    background-color: #014421; 
+    color: #FFD700; 
 }
 
-form {
-    background-color: rgb(255, 252, 252);
-    padding: 20px;
-    width: 300px;
-    margin: auto;
-    border-radius: 8px;
-    box-shadow: 0 0 10px gray;
+
+.feu-form label {
+    font-weight: bold;
+    color: #014421;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="date"] {
-    width: 100%;
-    padding: 2px;
-    margin-bottom: 10px;
-}
-
-input[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    background-color: blue;
-    color: white;
+.btn-feu {
+    background-color: #014421;
+    color: #FFD700;
     border: none;
+}
+
+.btn-feu:hover {
+    background-color: #033d1d;
+    color: #fff8dc;
 }
