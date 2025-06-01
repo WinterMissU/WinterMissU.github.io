@@ -1,0 +1,29 @@
+/* Body Styling */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+/* Container Padding */
+.container {
+  padding: 20px;
+}
+
+/* Heading Colors */
+h1, h3 {
+  color: #FFD700; /* Gold color for headings */
+}
+
+/* Unordered List Padding */
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* Reusable Section Border Style */
+.bordered-section {
+  border: 2px solid #fff;
+  padding: 15px;
+  border-radius: 10px;
+}

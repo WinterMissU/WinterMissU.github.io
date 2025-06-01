@@ -1,35 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formative Resume</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple Resume</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="/Resume.html/bootstrap.css">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styling.css">
 </head>
 <body>
-    <figure>
-        <img src="./Formal.jpg" width="200" height="200" alt="Picture Image">
-    </figure>
-    <div class="description">
-    <h1> Audencial Rheign Allen T. </h1>
-    <p>A person who strives for progress and is always willing to learn because there is always room for improvement in everything </p>
+
+  <div class="container text-white mt-5">
+    <div class="text-center mb-4">
+      <img src="Formal.jpg" alt="Profile Picture" class="rounded-circle" width="150" height="150">
+      <h1 class="mt-3">Audencial Rheign Allen T.</h1>
+      <p>A person who strives for progress and is always willing to learn because there is always room for improvement in everything.</p>
     </div>
-    <div class="Education">
-        <h2>Education:</h2>
-        <div class="unordered">
-            <ul>
-                <li>Saint Francis of Assisi College Taguig Campus</li>
-            </ul>
-        </div>
-    //Testing
-    <div class="Experience">
-        <h2>Work Experience:</h2>
-        <div class="unordered">
-            <ul>
-                <li>Renaissance Printing Company</li>
-            </ul>
-        </div>
-        
+
+    <!-- Education Section with border -->
+    <div class="mb-4 bordered-section">
+      <h3>Education</h3>
+      <ul>
+        <li>Saint Francis of Assisi College Taguig Campus. Nursery - Senior Highschool</li>
+        <li>Far Eastern University Institute of Technology. College - etc. </li>
+      </ul>
     </div>
+
+    <!-- Skills Section with border -->
+    <div class="mb-4 bordered-section">
+      <h3>Skills</h3>
+      <ul>
+        <li>Communication</li>
+        <li>Adaptability</li>
+        <li>Problem Solving</li>
+      </ul>
     </div>
+
+    <!-- Work Experience Section with border -->
+    <div class="mb-4 bordered-section">
+      <h3>Work Experience</h3>
+      <ul>
+        <li>Renaissance Printing Company</li>
+        <li>Parish Pastoral Council For Responsible Voting</li>
+        <li>Department Of Social Welfare and Development Repacking</li>    
+      </ul>
+    </div>
+  </div>
+
 </body>
 </html>
