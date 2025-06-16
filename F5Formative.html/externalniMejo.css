@@ -1,0 +1,60 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+    background-image: url('MejoBG.jpg'); /* Change to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+p {
+    font-size: large;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 60vh;
+}
+
+.info-section {
+    flex: 1;
+}
+
+.favorites {
+    max-width: 500px;
+    margin: 0 auto 20px auto;
+    background: rgba(255,255,255,0.7);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.favorites h2 {
+    color: #2c3e50;
+}
+
+.favorites ul {
+    text-align: left;
+    display: inline-block;
+}
+
+.img-section {
+    flex: 0 0 auto;
+    margin-left: 40px;
+}
